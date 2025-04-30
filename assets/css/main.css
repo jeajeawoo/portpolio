@@ -22,7 +22,9 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	color:black;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -34,6 +36,7 @@ body {
 
 ol, ul {
 	list-style: none;
+	color:black;
 }
 
 blockquote, q {
@@ -162,7 +165,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #ffffff;
+		color: black;
 		font-weight: bold;
 	}
 
@@ -172,10 +175,11 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		color: black;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: black;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
@@ -2809,7 +2813,13 @@ input, select, textarea {
 		ul.contact2 > li {
 			margin-bottom: 4px;       /* 항목 간 간격 */
 			font-size: 16px;
-			color: #ffffff;              /* 글자색 */
+		}
+		.contact2 li img, .contact2 li i {
+			height: 20px; /* 아이콘 크기 통일 */
+			margin-right: 8px; /* 아이콘과 텍스트 사이 간격 */
+		}
+		.contact2 li strong {
+			font-size: 16px; /* 텍스트 크기 통일 */
 		}
 /* Icons */
 
@@ -3249,7 +3259,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #FAF0E6;
 		}
 
 		.wrapper.style1-alt {
@@ -3257,7 +3267,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #FAF0E6
 		}
 
 		.wrapper.style2-alt {
@@ -3265,7 +3275,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: 	#6ccaf2
+			background-color: 	#FAF0E6;
 		}
 
 		.wrapper.style3-alt {

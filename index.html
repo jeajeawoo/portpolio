@@ -11,6 +11,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 	</head>
 	<body class="is-preload">
 
@@ -34,7 +36,7 @@
 				<!-- Intro -->
 				<section id="intro" class="wrapper style1 fullscreen fade-up">
 					<div class="inner" style="display: flex; align-items: center; gap: 40px; flex-wrap: wrap;">
-						<div style="flex: 1; min-width: 250px;">
+						<div style="flex: 1; min-width: 250px; background-color: #f9f9f9; margin-bottom: 30px; padding: 30px; border-radius: 150px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
 							<h2>비전공자 출신이지만 누구보다 꾸준히 성장해온 <br/> 신입 개발자 이재우입니다.</h2>
 							<h3>앞으로도 매일 한 걸음씩, 더 나은 개발자가 되기 위해 노력하겠습니다.</h3>
 						</div>
@@ -91,31 +93,64 @@
 						<div class="inner">
 							<h1>Skills</h1>
 							<div class="features">
-								<section>
+								<section style="margin-bottom: 30px; padding: 30px; background-color: #f9f9f9; border-radius: 150px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center;">
 									<h2>Back-End</h2>
-										<ul class="contact2">
-											<li><strong>java</strong></li>
-											<li><strong>spring</strong></li>
-											<li><strong>mybatis</strong></li>
-											<li><strong>RestApi</strong></li>
-											<li><strong>Mysql</strong></li>
-										</ul>
+									<ul class="contact2">
+										<li>
+											<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" 
+												alt="Java" style="height: 20px; vertical-align: middle; margin-right: 6px;">
+											<strong>Java</strong>
+										</li>
+										<li>
+											<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" 
+												alt="Spring" style="height: 20px; vertical-align: middle; margin-right: 6px;">
+											<strong>Spring</strong>
+										</li>
+										<li>
+											<i class="fas fa-database"></i> <strong>MyBatis</strong>
+										</li>
+										<li>
+											<i class="fas fa-project-diagram"></i> <strong>RestAPI</strong>
+										</li>
+										<li>
+											<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" 
+												alt="MySQL" style="height: 20px; vertical-align: middle; margin-right: 6px;">
+											<strong>MySQL</strong>
+										</li>
+									</ul>
 								</section>
-								<section>
+								
+								<section style="margin-bottom: 30px; padding: 30px; background-color: #f9f9f9; border-radius: 150px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center;">
 									<h2>Front-End</h2>
-										<ul class="contact2">
-											<li><strong>React</strong></li>
-											<li><strong>Next.js</strong></li>
-											<li><strong>Axios</strong></li>
-											<li><strong>Redux</strong></li>
-											<li><strong>styled-components</strong></li>
-											<li><strong>Font Awesome</strong></li>
-									  	</ul>
+									<ul class="contact2">
+										<li>
+											<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" 
+												alt="React" style="height: 20px; vertical-align: middle; margin-right: 6px;">
+											<strong>React</strong>
+										</li>
+										<li>
+											<img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" 
+												alt="Next.js" style="height: 20px; vertical-align: middle; margin-right: 6px;">
+											<strong>Next.js</strong>
+										</li>
+										<li>
+											<i class="devicon-axios-plain colored"></i> <strong>Axios</strong>
+										</li>
+										<li>
+											<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" 
+												alt="Redux" style="height: 20px; vertical-align: middle; margin-right: 6px;">
+											<strong>Redux</strong>
+										</li>
+										<li>
+											<i class="fas fa-paint-brush"></i> <strong>styled-components</strong>
+										</li>
+										<li>
+											<i class="fab fa-font-awesome"></i> <strong>Font Awesome</strong>
+										</li>
+									</ul>
 								</section>
+								
 							</div>
-							<ul class="actions">
-								<li><a href="#three" class="button scrolly">Learn more</a></li>
-							</ul>
 						</div>
 					</section>
 
@@ -136,10 +171,14 @@
 											<a href="https://github.com/jeajeawoo/jeawooshop" target="_blank"
 											class="github-button icon brands fa-github" 
 											title="GitHub"></a>
+											<p>
+												이 프로젝트는 사용자가 상품을 조회하고 장바구니에 담은 뒤 결제까지 할 수 있는 기능을 제공하는 <strong>온라인 쇼핑몰 웹 애플리케이션</strong>입니다. 
+												회원가입, 로그인, 상품 CRUD, 관리자 페이지 등을 구현했습니다.
+												</p>
 										</div>
 										<div>
 											<img src="https://raw.githubusercontent.com/jeajeawoo/jeawooshop/master/item_img/item.PNG"
-											style="width:600px; height:300px; border-radius:8px; margin-left:20px;"
+											style="width:600px; height:400px; border-radius:300px; margin-left:20px;"
 											alt="쇼핑몰 홈페이지" />
 										</div>
 									</div>
@@ -162,10 +201,14 @@
 											<a href="https://github.com/jeajeawoo/talkspace" target="_blank"
 											class="github-button icon brands fa-github" 
 											title="GitHub"></a>
+											<p>
+												사용자가 자유롭게 게시글을 등록하고 수정·삭제할 수 있는 <strong>기본 게시판 기능</strong>을 구현한 웹 애플리케이션입니다. 
+												글 목록, 상세 보기, 글쓰기, 검색 기능을 포함하며,간단한 로그인 기능도 추가하여 사용자 인증 흐름을 체험할 수 있도록 구성했습니다. 
+											</p>
 										</div>
 										<div>
 											<img src="https://raw.githubusercontent.com/jeajeawoo/talkspace/master/img/BoardList.PNG" 
-											style="width:600px; height:300px; border-radius:8px; margin-left:20px;"
+											style="width:600px; height:400px; border-radius:300px; margin-left:20px;"
 											alt="게시판 목록 사진" />
 										</div>
 									</div>
